@@ -4,7 +4,7 @@ pipeline {
     stage("source") {
       steps {
         sh'''
-        echo 'This branch is master.'
+        echo 'This branch is feature/1.'
         '''
       }
     }
