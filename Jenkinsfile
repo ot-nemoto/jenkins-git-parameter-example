@@ -4,7 +4,7 @@ pipeline {
     stage("source") {
       steps {
         sh'''
-        git branch
+        echo 'This branch is develop.'
         '''
       }
     }
