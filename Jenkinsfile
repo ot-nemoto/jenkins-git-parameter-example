@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage("source") {
       steps {
-        sh '''
-        ls -l
+        sh'''
+        git branch
         '''
       }
     }
